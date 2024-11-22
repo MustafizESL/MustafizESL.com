@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Courses - Mustafiz's English Academy</title>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="images/favicon.png" type="image/png">
 </head>
 <body>
     <header>
@@ -16,25 +17,26 @@
             <a href="contact.html">Contact</a>
         </nav>
     </header>
-    <section id="courses">
+
+    <section id="courses" class="container">
         <h2>Explore Our Courses</h2>
-        <div class="course">
-            <h3>Beginner English</h3>
-            <p>Learn the basics of English, including essential grammar and vocabulary.</p>
-        </div>
-        <div class="course">
-            <h3>Intermediate English</h3>
-            <p>Enhance your grammar, sentence structuring, and conversation skills.</p>
-        </div>
-        <div class="course">
-            <h3>Business English</h3>
-            <p>Master professional vocabulary, business writing, and effective communication skills.</p>
-        </div>
-        <div class="course">
-            <h3>Exam Preparation</h3>
-            <p>Get ready for tests like IELTS and TOEFL with targeted practice and strategies.</p>
+        <div class="course-grid">
+            <div class="course-card">
+                <img src="images/beginner-course.jpg" alt="Beginner English" class="course-image">
+                <h3>Beginner English</h3>
+                <p>Learn the basics of English, including essential grammar and vocabulary to build a strong foundation.</p>
+                <button class="learn-more-btn" onclick="window.location.href='beginner-english.html'">Learn More</button>
+            </div>
+            
+            <div class="course-card">
+                <img src="images/exam-prep-course.jpg" alt="Exam Preparation" class="course-image">
+                <h3>IELTS Preparation</h3>
+                <p>Get ready for IELTS with targeted practice and proven strategies to succeed.</p>
+                <button class="learn-more-btn">Learn More</button>
+            </div>
         </div>
     </section>
+
     <footer>
         <p>&copy; 2024 Mustafiz's English Academy. All Rights Reserved.</p>
     </footer>
