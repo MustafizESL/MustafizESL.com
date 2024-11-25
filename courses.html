@@ -10,32 +10,33 @@
 <body>
     <header>
         <h1>Our Courses</h1>
-        <nav>
+        <nav aria-label="Main Navigation">
             <a href="index.html">Home</a>
             <a href="about.html">About</a>
-            <a href="courses.html">Courses</a>
+            <a href="courses.html" aria-current="page">Courses</a>
             <a href="contact.html">Contact</a>
         </nav>
     </header>
 
-    <section id="courses" class="container">
-        <h2>Explore Our Courses</h2>
-        <div class="course-grid">
-            <div class="course-card">
-                <img src="images/beginner-course.jpg" alt="Beginner English" class="course-image">
-                <h3>Beginner English</h3>
-                <p>Learn the basics of English, including essential grammar and vocabulary to build a strong foundation.</p>
-                <button class="learn-more-btn" onclick="window.location.href='beginner-english.html'">Learn More</button>
+    <main>
+        <section id="courses" class="container">
+            <h2>Explore Our Courses</h2>
+            <div class="course-grid">
+                <article class="course-card">
+                    <img src="images/beginner-course.jpg" alt="Beginner English Course" class="course-image">
+                    <h3>Beginner English</h3>
+                    <p>Learn the basics of English, including essential grammar and vocabulary to build a strong foundation.</p>
+                    <button class="learn-more-btn" onclick="window.location.href='beginner-english.html'">Learn More</button>
+                </article>
+                <article class="course-card">
+                    <img src="images/exam-prep-course.jpg" alt="IELTS Preparation Course" class="course-image">
+                    <h3>IELTS Preparation</h3>
+                    <p>Get ready for IELTS with targeted practice and proven strategies to succeed.</p>
+                    <button class="learn-more-btn" onclick="window.location.href='courses.html'">Learn More</button>
+                </article>
             </div>
-            
-            <div class="course-card">
-                <img src="images/exam-prep-course.jpg" alt="Exam Preparation" class="course-image">
-                <h3>IELTS Preparation</h3>
-                <p>Get ready for IELTS with targeted practice and proven strategies to succeed.</p>
-                <button class="learn-more-btn">Learn More</button>
-            </div>
-        </div>
-    </section>
+        </section>
+    </main>
 
     <footer>
         <p>&copy; 2024 Mustafiz's English Academy. All Rights Reserved.</p>
